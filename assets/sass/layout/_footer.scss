@@ -1,0 +1,47 @@
+.item5 {
+    grid-area: footer;
+    justify-self: center;
+    padding-left: 60px;
+}
+
+.footer {
+    position: relative;
+    background-color: $samky-black;
+    color: $isabelline;
+    width: 325px;
+    height: 150px;
+    padding-top: 30px;
+    padding-left: 80px;
+    bottom: 0;
+}
+
+.footer__button {
+    position: absolute;
+    left: 407px;
+}
+
+.footer__btn {
+    transform: rotate(90deg);
+    text-decoration: none;
+    display: inline-block;
+    font-size: $medium;
+    background-color: $white;
+    border: none;
+    padding-left: 0;
+}
+
+
+/* .footer__h2 {}
+
+ */
+
+.footer__btn {
+    &:hover {
+        color: $isabelline;
+        background-color: $light-gray;
+    }
+    &:focus {
+        color: $white;
+        background-color: $granite-gray;
+    }
+}

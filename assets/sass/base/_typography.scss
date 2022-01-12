@@ -1,0 +1,17 @@
+h1,
+h2,
+p,
+span {
+    font-family: $old;
+}
+
+.footer_btn,
+.main__p,
+.footer_btn {
+    font-family: $relaway;
+    font-weight: 400;
+}
+
+h1 {
+    @include relative-converter (font-size, rem, $xxx-large, 16);
+}

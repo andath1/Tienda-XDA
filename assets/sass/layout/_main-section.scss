@@ -1,0 +1,36 @@
+.btn {
+    color: $samky-black;
+}
+
+.btn {
+    &:hover {
+        color: $isabelline;
+        background-color: $light-gray;
+    }
+    &:focus {
+        color: $white;
+        background-color: $granite-gray;
+    }
+}
+
+.item3 {
+    grid-area: main;
+    width: 70%;
+    padding-left: 200px;
+}
+
+.main {
+    &__h1 {
+        font-size: $xxx-large;
+    }
+}
+
+.main__p {
+    color: $quick-silver;
+    margin-right: 150px;
+}
+
+.item4 {
+    grid-area: right;
+    /*  @include relative-converter (height, rem, , 16); */
+}
